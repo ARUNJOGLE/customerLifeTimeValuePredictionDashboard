@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: darkseagreen;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#plot-container {
+  text-align: center;
+}
+
+#plot {
+  margin-top: 20px;
+  border: 10px solid #ffffff5b;
+  box-shadow: 0 0 20px 3px black;
+  background-color: rgb(255, 255, 255);
+  /* color: #fff; */
+}
+
+#analysis {
+  margin-top: 20px;
+}
+
+#downloadPDF {
+  margin-top: 20px;
+}
+/* Styles for the download button */
+#downloadPDF {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the loader */
+#loader {
+  display: none; /* Initially hidden */
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite; /* Apply animation */
+}
+
+/* Animation for the loader */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* tables */
+
+.analysis-table {
+  background-color: rgb(0 0 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft black shadow */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px; /* Rounded corners */
+  overflow-wrap: anywhere;
+}
+
+.table-cell {
+  padding: 12px; /* Increased padding */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Light border between cells */
+  font-size: 16px; /* Larger font size */
+}
+
+.table-row {
+  color: rgb(96 255 249); /* Dark red text for table rows */
+}
+
+.markedResult {
+  color: #00ff7f; /* Gold text */
+  font-size: 18px; /* Larger font size */
+}
+
+.title-table {
+  color: rgb(255 255 255); /* Dark gray text */
+  font-size: 20px; /* Larger font size */
+}
