@@ -13,7 +13,7 @@ function processCSV(event) {
 }
 
 // Function to plot customer ID vs frequency of purchase
-function plotData(data) {
+ffunction plotData(data) {
   const customerIds = data.map((entry) => entry["CustomerID"]);
   const frequencies = data.map((entry) => entry["Frequency"]);
 
