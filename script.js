@@ -1,5 +1,5 @@
 // Function to process uploaded CSV file
-function processCSV(event) {
+ffunction processCSV(event) {
   const file = event.target.files[0];
   Papa.parse(file, {
     header: true,
